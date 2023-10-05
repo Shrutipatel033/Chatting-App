@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".StatusFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="15dp"
+       android:background="#d1cfcb"
+       >
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:src="@drawable/baseline_photo_camera_24"
+           android:id="@+id/img_statuscamera"
+           android:layout_marginLeft="15dp">
+
+
+       </ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Upload Status"
+           android:textSize="22sp"
+           android:layout_toRightOf="@id/img_statuscamera"
+           android:layout_centerInParent="true"
+           android:layout_marginLeft="40dp"
+           ></TextView>
+   </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_status"
+        ></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045853721112",
+    "project_id": "thirdapp-d3e8f",
+    "storage_bucket": "thirdapp-d3e8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045853721112:android:622898417d70872948a96d",
+        "android_client_info": {
+          "package_name": "com.example.thirdapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvYA4g5BsycC_JQ_DuCkiM31zsynpBgpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

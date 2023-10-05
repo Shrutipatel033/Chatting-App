@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/user"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/orange"
+        android:id="@+id/userpic"
+        ></de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shruti"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/userpic"
+        android:id="@+id/username"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello,how are you doing this time"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/userlastmsg"
+        android:layout_toRightOf="@+id/userpic"
+        android:textSize="10dp"
+        android:textColor="@color/black_1"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14/09"
+        android:id="@+id/userlastmsgdate"
+        android:textColor="@color/blue"
+        android:layout_alignParentEnd="true"
+        ></TextView>
+</RelativeLayout>
